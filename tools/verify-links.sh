@@ -176,6 +176,9 @@ for file in ${mdFiles}; do
     # Strip off leading and trailing spaces
     ref=$(echo $ref | sed "s/^ *//" | sed "s/ *$//")
 
+    # Strip off leading # so headers aren't confused with anchors
+    ref=$(echo $ref | sed "s/^#*//")
+
     # Show all hrefs - mainly for verifying in our tests
     debug "Checking: '$ref'"
 
