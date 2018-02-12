@@ -23,3 +23,4 @@
   * [Yaron Haviv](https://github.com/iguazio), Orit Nissan-Messing (Serverless WG)
 * **Huawei**
   * Cathy Zhang
+  * Louis Fourie
